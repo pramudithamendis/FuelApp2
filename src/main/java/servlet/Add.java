@@ -39,12 +39,16 @@ public class Add extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+		
+		
+		
+		String no1 = request.getParameter("no1");
+		int no2 = Integer.parseInt(request.getParameter("no2"));
+		int no3 = Integer.parseInt(request.getParameter("no3"));
+		
+		
 		Fuel f = new Fuel();
-		f.updateFilledIn("123456", 1, 1);
-		
-		
-		int no1 = Integer.parseInt(request.getParameter("no1"));
-		no1++;
+		f.updateFilledIn(no1, no2, no3);
 		
 //		Fuel f = new Fuel();//
 //		f.adder();

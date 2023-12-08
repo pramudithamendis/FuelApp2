@@ -10,7 +10,10 @@
 Hi2
 <form action="Add" method = "POST">
 
-<input type = "text" name = "no1">
+
+
+
+
 <input type="submit">
 </form>
 </body>

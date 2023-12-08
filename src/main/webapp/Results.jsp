@@ -8,9 +8,9 @@
 </head>
 <body>
 
-<% int n= (Integer)request.getAttribute("sum"); %>
+<% int no1= (Integer)request.getAttribute("sum"); %>
 
-<%=n %>
+<%=no1 %> Updated
 
 <a href="index.jsp">index</a>
 </body>
