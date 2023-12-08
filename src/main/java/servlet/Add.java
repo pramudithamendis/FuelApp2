@@ -44,7 +44,7 @@ public class Add extends HttpServlet {
 		
 		Fuel f = new Fuel();//
 		f.adder();
-		
+		//.
 		request.setAttribute("sum", no1);
 		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/Results.jsp");
 		
