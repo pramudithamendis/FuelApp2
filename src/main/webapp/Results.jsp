@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<% int no1= (Integer)request.getAttribute("sum"); %>
+<% String no1= (String)request.getAttribute("sum"); %>
 
 <%=no1 %> Updated
 
