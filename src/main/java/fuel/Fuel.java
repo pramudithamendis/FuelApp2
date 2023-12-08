@@ -50,7 +50,7 @@ public class Fuel {
         licenseNo= 1;
         amount = 1;
         
-        st.executeUpdate("insert into fuel.dbo.FilledIn(vRegNo, licenseNo, amoutn, filledDate) values('"+vReg+"',"+licenseNo+", GETDATE())");
+        st.executeUpdate("insert into fuel.dbo.FilledIn(vRegNo, licenseNo, amoutn, filledDate) values('"+vReg+"',"+licenseNo+","+ amount+", GETDATE())");
         
         System.out.println("Inserted to FilledIn table");
         }catch(Exception e){
