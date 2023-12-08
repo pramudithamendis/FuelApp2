@@ -21,7 +21,7 @@ public class Fuel {
         Connection con = DriverManager.getConnection(url, uname, pas);
 
         Statement st = con.createStatement();
-        st.executeUpdate("insert into table2 values(405)");
+        st.executeUpdate("insert into jdbc.dbo.table1 values(405, 12)");
         System.out.println("Connected to db with Eclipse");
         }catch(Exception e){
             System.out.println(e);
