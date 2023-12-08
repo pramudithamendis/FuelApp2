@@ -46,9 +46,9 @@ public class Fuel {
 
         Statement st = con.createStatement();
 //        st.executeUpdate("insert into jdbc.dbo.table1 values(405, 12)");
-        vReg = "123456";
-        licenseNo= 1;
-        amount = 1;
+//        vReg = "123456";
+//        licenseNo= 1;
+//        amount = 1;
         
         st.executeUpdate("insert into fuel.dbo.FilledIn(vRegNo, licenseNo, amoutn, filledDate) values('"+vReg+"',"+licenseNo+","+ amount+", GETDATE())");
         
