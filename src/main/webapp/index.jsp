@@ -11,7 +11,9 @@ Hi2
 <form action="Add" method = "POST">
 
 
-
+vRegNo<input type = "text" name = "no1">
+LiscenseNo<input type = "text" name = "no2">
+amount<input type = "text" name = "no3">
 
 
 <input type="submit">
