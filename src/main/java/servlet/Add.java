@@ -39,6 +39,10 @@ public class Add extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+		Fuel f = new Fuel();
+		f.updateFilledIn("123456", 1, 1);
+		
+		
 		int no1 = Integer.parseInt(request.getParameter("no1"));
 		no1++;
 		
@@ -50,6 +54,11 @@ public class Add extends HttpServlet {
 		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/Results.jsp");
 		
 		dispatcher.forward(request, response);
+		
+		
+		
+		
+		
 		
 
 	}
