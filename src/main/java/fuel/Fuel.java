@@ -27,6 +27,10 @@ public class Fuel {
             System.out.println(e);
         }
 	}
+	
+	public void updateFilledIn(int n) {
+		
+	}
 
 	public static void main(String args[])  throws ClassNotFoundException, SQLException  {
 		
