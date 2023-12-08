@@ -30,8 +30,8 @@ public class Fuel {
 
 	public static void main(String args[])  throws ClassNotFoundException, SQLException  {
 		
-		Fuel f = new Fuel();
-		f.adder();
+//		Fuel f = new Fuel();
+//		f.adder();
 		
 	}
 }
